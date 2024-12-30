@@ -9,6 +9,10 @@ const youtube = google.youtube({
   auth: googleApiKey,
 });
 
+// const sampleVideoId = "2JJaCwMkC00";
+const sampleVideoId = "_WbHb8-c3-U";
+
 module.exports = {
   youtube,
+  sampleVideoId,
 };

@@ -1,4 +1,4 @@
-const { youtube } = require("./youtube");
+const { youtube, sampleVideoId } = require("./youtube");
 
 async function getVideoById(videoId) {
   try {
@@ -22,6 +22,6 @@ async function getVideoById(videoId) {
   }
 }
 
-getVideoById("2JJaCwMkC00").then((video) => {
+getVideoById(sampleVideoId).then((video) => {
   console.log("VIDEO", video);
 });
